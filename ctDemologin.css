@@ -32,9 +32,10 @@ element.style {
 #registration-v2 .container .content {
     padding: 15px !important;
     background-color: rgba(255,255,255,.9) !important;
-    background-image: url("https://doc.qt.io/qt-5/images/RadialGradient_horizontalOffset1.png") !important;
-    background-size: cover !important;
-};
+    height: 130px;
+}
+h3 {
+    display: none;
 }
 #registration-v2 .container .content .heading {
     font-size: 1.5625rem !important;
