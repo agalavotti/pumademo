@@ -1,40 +1,40 @@
 .widget .header {
-    display: block;
-    padding: 2px;
-    background-color: #4a90e2;
-    border-bottom: 1px solid #000;
-    width: 100%;
-    -webkit-transform: translate3d(0,0,0);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    display: block !important;
+    padding: 2px !important;
+    background-color: #4a90e2 !important;
+    border-bottom: 1px solid #000 !important;
+    width: 100% !important;
+    -webkit-transform: translate3d(0,0,0) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1000 !important;
 }
 .widget .container {
-    padding: 33px 10px 10px 10px;
-    background-color: black;
+    padding: 33px 10px 10px 10px !important;
+    background-color: black !important;
 }
 #registration-v2 .container {
-    display: inline-block;
-    width: 100%;
-    background-size: 200px 147px;
-    background-position-y: center;
-    background-repeat: no-repeat;
+    display: inline-block !important;
+    width: 100% !important;
+    background-size: 200px 147px !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
 }
 element.style {
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
 }
 @media (min-width: 500px)
 #registration-v2 .container .content {
-    float: right;
-    width: 80%;
+    float: right !important;
+    width: 80% !important;
 }
 #registration-v2 .container .content {
-    padding: 15px;
-    background-color: rgba(255,255,255,.9);
+    padding: 15px !important;
+    background-color: rgba(255,255,255,.9) !important;
 }
 #registration-v2 .container .content .heading {
-    font-size: 1.5625rem;
-    padding-bottom: 10px;
+    font-size: 1.5625rem !important;
+    padding-bottom: 10px !important;
 }
