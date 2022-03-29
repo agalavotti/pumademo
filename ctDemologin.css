@@ -1,5 +1,5 @@
 .widget .header {
-    display: block !important;
+    display: none !important;
     padding: 2px !important;
     background-color: #ae946d !important;
     border-bottom: 1px solid #000 !important;
@@ -45,4 +45,8 @@ h3 {
 #registration-v2 .container .content .heading {
     font-size: 1.2rem !important;
     padding-bottom: 10px !important;
+}
+#registration-v2 .container .content button.sign-up {
+    width: auto;
+    
 }
