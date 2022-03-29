@@ -1,5 +1,5 @@
 #account-overview-v2 .profile-pic.bp2 {
-    display: inline-block;
+    display: none;
     width: 80px;
     height: 80px;
     padding-top: 15px;
@@ -8,6 +8,15 @@
     width: 40%;
     padding-top: 15px;
 }
+#account-overview-v2 .name {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+}
+
+
 #account-overview-v2 .progress-bar-container {
     padding-top: 0;
     width: 50%;
