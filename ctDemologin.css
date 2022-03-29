@@ -11,5 +11,30 @@
     z-index: 1000;
 }
 .widget .container {
-    padding: 46px 10px 10px 10px;
+    padding: 33px 10px 10px 10px;
+    background-color: black;
+}
+#registration-v2 .container {
+    display: inline-block;
+    width: 100%;
+    background-size: 200px 147px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+element.style {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+@media (min-width: 500px)
+#registration-v2 .container .content {
+    float: right;
+    width: 80%;
+}
+#registration-v2 .container .content {
+    padding: 15px;
+    background-color: rgba(255,255,255,.9);
+}
+#registration-v2 .container .content .heading {
+    font-size: 1.5625rem;
+    padding-bottom: 10px;
 }
