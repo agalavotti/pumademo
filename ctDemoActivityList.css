@@ -25,6 +25,7 @@
 }
 #activity-list-v2 .image-container img {
     padding: 6px;
+    background-color:#ffffff !important;
 }
 img {
     height: auto;
