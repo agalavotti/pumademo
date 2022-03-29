@@ -48,5 +48,9 @@ h3 {
 }
 #registration-v2 .container .content button.sign-up {
     width: auto;
+    background-image: url(https://agalavotti.github.io/pumademo/glossy-black-icon-button-th.png);
+    background-size: cover;
+    background-repeat: round;
+    background-color: white !important;
     
 }
