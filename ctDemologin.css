@@ -32,7 +32,8 @@ element.style {
 #registration-v2 .container .content {
     padding: 15px !important;
     background-color: rgba(255,255,255,.9) !important;
-    background-image: url(https://agalavotti.github.io/pumademo/97-985672_middle-white-to-white-gradient-black-and-white.png) !important;
+    background-image: url("https://doc.qt.io/qt-5/images/RadialGradient_horizontalOffset1.png") !important;
+    background-size: cover !important;
 };
 }
 #registration-v2 .container .content .heading {
