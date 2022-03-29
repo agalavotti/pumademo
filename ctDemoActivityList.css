@@ -25,6 +25,8 @@
 }
 #activity-list-v2 .image-container img {
     padding: 6px;
+}
+#activity-list-v2 .image-container {
     background-color:#ffffff !important;
 }
 img {
