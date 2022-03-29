@@ -1,0 +1,21 @@
+#account-overview-v2 .profile-pic.bp2 {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+}
+#account-overview-v2 .points-info {
+    width: 40%;
+    padding-top: 15px;
+}
+#account-overview-v2 .progress-bar-container {
+    padding-top: 0;
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 15px;
+}
+#account-overview-v2 .container {
+    display: table;
+    max-height: 154px;
+}
