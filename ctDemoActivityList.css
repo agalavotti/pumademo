@@ -13,6 +13,11 @@
     margin: 0 10px 20px 10px !important;
     border-radius: 8px !important;
     flex: 1 1 0 !important;
+    display:grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
 }
 #activity-list-v2 ul {
     margin: 0;
