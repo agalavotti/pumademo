@@ -33,6 +33,9 @@
 #activity-list-v2 .image-container img {
     padding: 6px;
 }
+#activity-list-v2 .title {
+    margin: 6px;
+}
 #activity-list-v2 .image-container {
     background-color:#ffffff !important;
     width:150px;
