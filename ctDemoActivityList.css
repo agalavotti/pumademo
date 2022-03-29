@@ -42,9 +42,9 @@
     height:150px;
 }
 img {
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    padding: 0px !important;
+    height: 150px;
+    width: 150px;
+    padding: 2px !important;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     display: block !important;
