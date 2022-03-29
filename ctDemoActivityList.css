@@ -12,7 +12,7 @@
     float: left !important;
     margin: 0 10px 20px 10px !important;
     border-radius: 8px !important;
-    flex: 1 !important;
+    flex: 0 0 auto !important;
 }
 #activity-list-v2 ul {
     margin: 0;
