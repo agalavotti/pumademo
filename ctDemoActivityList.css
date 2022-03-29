@@ -1,0 +1,36 @@
+#activity-list-v2 {
+    font-size: .8125rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#activity-list-v2 .activity {
+    background: #ffffff;
+    border-bottom: 1px solid #bbb;
+    padding: 0px !important;
+    cursor: pointer;
+    float: left !important;
+    margin: 0 10px 20px 10px !important;
+    border-radius: 8px !important;
+    flex: 0 0 auto;
+}
+#activity-list-v2 ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: baseline;
+}
+#activity-list-v2 .image-container img {
+    padding: 6px;
+}
+img {
+    height: auto;
+    width: 100%;
+    padding: 0px !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block !important;
+}
