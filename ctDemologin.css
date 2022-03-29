@@ -1,7 +1,7 @@
 .widget .header {
     display: block !important;
     padding: 2px !important;
-    background-color: #4a90e2 !important;
+    background-color: #ae946d !important;
     border-bottom: 1px solid #000 !important;
     width: 100% !important;
     -webkit-transform: translate3d(0,0,0) !important;
@@ -25,7 +25,6 @@ element.style {
     padding-top: 1px !important;
     padding-bottom: 1px !important;
 }
-@media (min-width: 500px)
 #registration-v2 .container .content {
     float: right !important;
     width: 80% !important;
