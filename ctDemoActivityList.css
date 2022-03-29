@@ -19,6 +19,7 @@
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
+    height:300px;
 }
 #activity-list-v2 ul {
     margin: 0;
