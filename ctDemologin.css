@@ -15,10 +15,10 @@
     background-color: black !important;
 }
 #registration-v2 .container {
-    display: inline-block !important;
+    display: inline-table !important;
     width: 100% !important;
-    background-size: 200px 147px !important;
-    background-position-y: center !important;
+    background-size: 85px 60pxpx !important;
+    background-position-y: bottom !important;
     background-repeat: no-repeat !important;
 }
 element.style {
@@ -32,7 +32,12 @@ element.style {
 #registration-v2 .container .content {
     padding: 15px !important;
     background-color: rgba(255,255,255,.9) !important;
-    height: 130px;
+    height: 48px !important;
+    display: flex !importsnt;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    flex: 1 1 0 !important;
+    flex-wrap: nowrap;
 }
 h3 {
     display: none;
