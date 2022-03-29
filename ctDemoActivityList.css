@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    background-color:black;
 }
 #activity-list-v2 .activity {
     background: #ffffff;
