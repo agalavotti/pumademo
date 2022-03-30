@@ -11,7 +11,7 @@
     z-index: 1000 !important;
 }
 .widget .container {
-    padding: 33px 10px 10px 10px !important;
+    padding: 5px 5px 5px 5px !important;
     background-color: black !important;
 }
 #registration-v2 .container {
@@ -27,11 +27,11 @@ element.style {
 }
 #registration-v2 .container .content {
     float: right !important;
-    width: 80% !important;
+    width: 90% !important;
 }
 #registration-v2 .container .content {
     padding: 15px !important;
-    background-color: rgba(255,255,255,.9) !important;
+    background-color: white !important;
     height: 48px !important;
     display: flex !important;
     justify-content: space-evenly !important;
