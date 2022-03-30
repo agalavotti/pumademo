@@ -1,0 +1,15 @@
+.widget .header {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+element.style {
+    background-color: rgb(174, 148, 109);
+}
