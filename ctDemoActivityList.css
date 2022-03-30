@@ -49,3 +49,8 @@ img {
     border-top-right-radius: 8px;
     display: block !important;
 }
+.ct-points-color {
+    color: #c41b2f !important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
