@@ -1,7 +1,7 @@
 .widget .header {
     display: block;
     padding: 5px;
-    background-color: #4a90e2;
+    background-color: black !important;
     border-bottom: 1px solid #000;
     width: 100%;
     -webkit-transform: translate3d(0,0,0);
