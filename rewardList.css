@@ -28,8 +28,8 @@
     margin-right: auto;
     animation-delay: 10s;
     animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -webkit-animation-delay: 10s;
+    -webkit-animation: fadeIn 3s 10s;
+
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
