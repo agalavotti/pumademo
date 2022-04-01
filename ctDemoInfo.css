@@ -51,7 +51,7 @@
 #account-overview-v2 .container {
     display: table;
     max-height: 154px;
-    -webkit-animation: fadeIn 3s 10s;
+    -webkit-animation: fadeIn 4s;
 }
 .widget .container {
     padding: 30px 10px 0px 10px;
