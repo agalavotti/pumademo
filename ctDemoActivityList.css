@@ -59,7 +59,7 @@ h1 {
     align-content: space-evenly;
     align-items: center;
     height:300px;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
