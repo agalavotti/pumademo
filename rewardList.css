@@ -26,13 +26,7 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    animation-delay: 10s;
-    animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s 10s;
-
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
 }
 #reward-list-v2 .rewards .reward {
     width: 20%;
