@@ -51,7 +51,7 @@
 #account-overview-v2 .container {
     display: table;
     max-height: 154px;
-    animation-delay: 2s;
+    animation-delay: 3s;
     animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
