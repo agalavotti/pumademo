@@ -27,7 +27,11 @@
     margin-left: auto;
     margin-right: auto;
     animation-delay: 2s;
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
 #reward-list-v2 .rewards .reward {
     width: 20%;
