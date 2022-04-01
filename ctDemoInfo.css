@@ -1,3 +1,27 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 #account-overview-v2 .profile-pic.bp2 {
     display: none;
     width: 80px;
@@ -27,6 +51,8 @@
 #account-overview-v2 .container {
     display: table;
     max-height: 154px;
+    animation-delay: 2s;
+    animation: fadeIn 1s;
 }
 .widget .container {
     padding: 30px 10px 0px 10px;
