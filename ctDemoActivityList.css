@@ -78,7 +78,7 @@ h1 {
 }
 #activity-list-v2 .image-container {
     background-color:#ffffff !important;
-    width:150px;
+    width:100%;
     height:150px;
 }
 img {
