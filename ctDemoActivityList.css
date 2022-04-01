@@ -59,6 +59,7 @@ h1 {
     align-content: space-evenly;
     align-items: center;
     height:300px;
+    width: 390px;
     -webkit-animation: fadeIn 4s;
 }
 #activity-list-v2 ul {
