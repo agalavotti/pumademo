@@ -5,6 +5,30 @@
     overflow-x: auto;
     background-color:black;
 }
+.header h1 {
+    display: block;
+    padding: 5px;
+    background-color: #4a90e2;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    animation: 10s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 #activity-list-v2 .activity {
     background: #ffffff;
     border-bottom: 1px solid #bbb;
