@@ -6,7 +6,7 @@
     background-color:black;
 }
 h1 {
-    animation: 10s slide-right;
+    animation: 1.5s slide-right;
 }
 @keyframes slide-right {
   from {
