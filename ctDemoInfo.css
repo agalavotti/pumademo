@@ -52,7 +52,7 @@
     display: table;
     max-height: 154px;
     animation-delay: 2s;
-    animation: fadeIn 1s;
+    animation: fadeIn 3s;
 }
 .widget .container {
     padding: 30px 10px 0px 10px;
