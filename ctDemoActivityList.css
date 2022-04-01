@@ -82,11 +82,10 @@ h1 {
     height:150px;
 }
 img {
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     padding: 2px !important;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
     display: block !important;
 }
 .ct-points-color {
