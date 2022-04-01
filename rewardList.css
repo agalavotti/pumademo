@@ -1,7 +1,33 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 #reward-list-v2 .rewards {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    animation-delay: 2s;
+    animation: fadeIn 2s;
 }
 #reward-list-v2 .rewards .reward {
     width: 20%;
