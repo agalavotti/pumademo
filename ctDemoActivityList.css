@@ -59,13 +59,7 @@ h1 {
     align-content: space-evenly;
     align-items: center;
     height:300px;
-    animation-delay: 10s;
-    animation: fadeIn 1s;
-    -webkit-animation: fadeIn 1s;
-    -webkit-animation-delay: 10s;
-    -moz-animation: fadeIn 1s;
-    -o-animation: fadeIn 1s;
-    -ms-animation: fadeIn 1s;
+    -webkit-animation: fadeIn 3s 10s;
 }
 #activity-list-v2 ul {
     margin: 0;
