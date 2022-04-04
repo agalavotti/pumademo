@@ -1,0 +1,14 @@
+#registration-v2 .container {
+    display: inline-block;
+    width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#registration-v2 .header {
+    display: none;
+    width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
