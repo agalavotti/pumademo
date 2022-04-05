@@ -59,3 +59,28 @@ body {
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s; 
 }
+#registration-v2 .container .content .login button {   
+    display: inline-block;
+    position: relative;
+    width: auto;
+    background-image: url(https://agalavotti.github.io/pumademo/glossy-black-icon-button-th.png);
+    background-color: #AAA;
+    background-image: linear-gradient( /* chrome */
+    hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 50%,
+    hsla(0, 0%, 0%, 0.3) 50%, hsla(0, 0%, 100%, 0.2)
+  );
+    text-shadow:
+    0 0 15px hsla(0, 0%, 100%, 1), /* bloom */
+    0 2px 4px hsla(0, 0%, 0%, 0.7); /* drop shadow */
+  border: none;
+  border-radius: 50px;
+  margin: 10px;
+   box-shadow:
+    inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+    inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+    /* multiple light sources yall */
+    -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+    5px 18px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
