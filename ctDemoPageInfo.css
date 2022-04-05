@@ -1,10 +1,10 @@
 #account-overview-two-v2 .container {
     width: 100%;
-    display: table;
+    display: table!important;
     height: 320px !important;
 }
 #account-overview-two-v2 .header {
-    display:none;
+    display:none !important;
 }
 #account-overview-two-v2 {
     width: 100%;
