@@ -23,6 +23,7 @@ body {
     float: left;
     width: 50%;
     margin-left: 60px;
+    background-color: #000000 !important;
 }
 
 #registration-v2 .heading {
