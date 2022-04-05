@@ -73,7 +73,7 @@ element.style {
 #account-overview-v2 .progress-bar-container {
     padding-top: 15px;
     display: block;
-    width: 70%;
+    width: 50%;
     background: repeating-linear-gradient(45deg, #ae946d, transparent 400px);
     color: white;
     border-radius: 10px;
