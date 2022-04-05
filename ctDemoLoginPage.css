@@ -22,3 +22,7 @@ body {
     padding: 20px;
     background-color: #000000;
 }
+#registration-v2 .heading {
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
