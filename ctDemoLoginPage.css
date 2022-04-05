@@ -24,6 +24,7 @@ body {
     width: 50%;
     margin-left: 60px;
     background-color: #000000 !important;
+    padding-right:0px;
 }
 
 #registration-v2 .heading {
