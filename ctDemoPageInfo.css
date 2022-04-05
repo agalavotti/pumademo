@@ -2,6 +2,8 @@
     width: 100%;
     display: table!important;
     height: 320px !important;
+    overflow: none !important;
+    background: #000000 !important;
 }
 #account-overview-v2 .header {
     display:none !important;
