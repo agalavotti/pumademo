@@ -77,6 +77,10 @@ element.style {
     display: none !important;
     font-size: 1rem;
 }
+.ct-points-color {
+    color: #c4a121!important;
+    text-transform: capitalize;
+}
 #account-overview-v2 .progress-bar-container {
     padding-top: 15px;
     display: block;
