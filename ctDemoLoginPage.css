@@ -16,7 +16,7 @@ h2, h3 {
     background-repeat: no-repeat;
 }
 body {
-    background: #000000;
+    background: none transparent;
 }
 #registration-v2 .container .content {
     padding: 20px;
