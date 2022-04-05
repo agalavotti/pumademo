@@ -36,3 +36,18 @@ element.style {
 .ng-scope.ng-isolate-scope {
     overflow: hidden !important;
 }
+#account-overview-v2 .user-info {
+    display: none;
+    width: 20%;
+}
+#account-overview-v2 .user-info {
+    display: none;
+    width: 20%;
+}
+#account-overview-v2 .name {
+    text-transform: uppercase;
+    color: #white;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 50px;
+}
