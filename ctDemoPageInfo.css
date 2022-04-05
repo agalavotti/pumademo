@@ -66,8 +66,9 @@ element.style {
     background: repeating-linear-gradient(45deg, #ae946d, transparent 366px);
     border-radius: 10px;
 }
-.icon {
-    display:none !important; 
+#account-overview-v2 .fan-level {
+    display: none !important;
+    font-size: 1rem;
 }
 #account-overview-v2 .progress-bar-container {
     padding-top: 15px;
