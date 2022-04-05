@@ -1,5 +1,5 @@
 #account-overview-two-v2 .container {
     width: 100%;
-    display: block;
+    display: table;
     height: 320px !important;
 }
