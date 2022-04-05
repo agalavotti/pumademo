@@ -60,10 +60,10 @@ body {
   transition: transform 0.1s, box-shadow 0.1s; 
 }
 #registration-v2 .container .content .login button {  
-    font-size: .875rem !important;
+    font-size: 1.2rem !important;
     display: inline-block;
     position: relative;
-    width: auto;
+    width: 112px;
     background-image: url(https://agalavotti.github.io/pumademo/glossy-black-icon-button-th.png);
     background-color: #AAA;
     background-image: linear-gradient( /* chrome */
