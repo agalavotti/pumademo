@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-h2 h3 {
+h2, h3 {
     color:#ffffff !important;
 }
 #registration-v2 .header {
