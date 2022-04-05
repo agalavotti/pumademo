@@ -66,6 +66,6 @@ element.style {
     background: linear-gradient(45deg, black, #ddd);
     border-radius: 10px;
 }
-img.icon {
-    display:none;
+.icon {
+    display:none !important; 
 }
