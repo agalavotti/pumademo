@@ -49,7 +49,7 @@ element.style {
     color: #white;
     font-weight: 700;
     font-size: 1.75rem;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 #account-overview-v2 .points {
     font-size: .6875rem;
@@ -73,7 +73,7 @@ element.style {
 #account-overview-v2 .progress-bar-container {
     padding-top: 15px;
     display: block;
-    width: 100%;
+    width: 70%;
     background: repeating-linear-gradient(45deg, #ae946d, transparent 400px);
     color: white;
     border-radius: 10px;
