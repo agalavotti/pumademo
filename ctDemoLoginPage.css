@@ -18,10 +18,13 @@ h2, h3 {
 body {
     background: none transparent;
 }
+
 #registration-v2 .container .content {
-    padding: 20px;
-    background-color: #000000;
+    float: left;
+    width: 50%;
+    margin-left: 60px;
 }
+
 #registration-v2 .heading {
     font-size: 2rem;
     padding-bottom: 25px;
