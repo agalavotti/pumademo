@@ -51,7 +51,7 @@ element.style {
     font-size: 1.75rem;
     margin-bottom: 10px;
 }
-#account-overview-v2 .lifetime-points, #account-overview-v2 .name {
+#account-overview-v2 .lifetime-points {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
