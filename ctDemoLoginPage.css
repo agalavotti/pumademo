@@ -16,7 +16,7 @@ h2, h3 {
     background-repeat: no-repeat;
 }
 body {
-    background: none transparent;
+    background: #000000;
 }
 
 #registration-v2 .container .content {
