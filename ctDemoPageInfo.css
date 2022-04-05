@@ -1,9 +1,11 @@
 #account-overview-v2 .container {
     width: 100%;
-    display: table!important;
+    display: inline-block!important;
     height: 320px !important;
-    overflow: none !important;
+    overflow: hidden !important;
     background: #000000 !important;
+    align-items: center;
+    padding-left:50px
 }
 #account-overview-v2 .header {
     display:none !important;
