@@ -85,8 +85,15 @@ element.style {
     padding-top: 15px;
     display: block;
     width: 50%;
+    height: 155px;
     background: repeating-linear-gradient(45deg, #ae946d, transparent 400px);
     color: white;
     border-radius: 10px;
     margin bottom: 2;
+}
+#account-overview-v2 .logout-link-container {
+    padding-top: 41px;
+    width: 100%;
+    text-align: center;
+    font-size: .6875rem;
 }
