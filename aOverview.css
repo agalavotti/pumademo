@@ -11,7 +11,7 @@ body {
     max-width: 1220px !important;
     margin-left:  auto !important;
     margin-right: auto !important;
-    background-color: #001A30 !important;   
+    background-color: #000000 !important;   
     font-family: 'Bull Text',Helvetica,sans-serif !important;
     padding-bottom: 60px;/* Added By Dersana */
 }
@@ -38,7 +38,7 @@ div#account-overview-v2 {
 }
 
 .header.ct-header-color {
-    background-color: #001A30 !important;
+    background-color: #000000 !important;
     color:#ffffff;
     border:none;
 }
@@ -96,7 +96,7 @@ span.ct-progress-bar {
     /* Added by Priyank */
     height: 3.25rem!important;
     border-radius: 25px;
-    background-color: #001A30 !important;
+    background-color: #000000 !important;
     border: 1px solid #627282ab !important;
 }
 
@@ -151,7 +151,7 @@ span.fan-level-progress.ng-scope {
 }
 
 .container {
-    background-color: #001A30;
+    background-color: #000000;
 }
 
 iframe {
