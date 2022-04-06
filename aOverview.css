@@ -147,7 +147,7 @@ span.fan-level-progress.ng-scope {
 }
 
 .logout-link-container {
-    display: none;
+    display: block;
 }
 
 .container {
