@@ -1,0 +1,338 @@
+/* FONTS */
+
+    @import url("https://loyalty-addons-scripts.redbullracing.com/crowdtwist/css/rbr-ct-fonts-v1.css");
+
+html {
+    min-height: 100% !important;
+    min-width:  100% !important;
+}
+
+body {
+    max-width: 1220px !important;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+    background-color: #001A30 !important;  
+    /*padding: 60px 10px 0px 10px; Changed by Dersana */
+    padding: 60px 0px 0px 0px;/* Changed by Sadia - Latest */
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+}
+
+.page__panel iframe{
+    margin-top: 80px !important;
+}
+
+.widget .header {
+    border-bottom: none !important;
+    background-color: #001A30 !important;
+    padding: 0px !important;
+}
+
+.widget .header {
+    padding: 0px !important;
+}
+
+.widget .container {
+    /* padding: 35px 1rem 2rem 1.5rem; */
+    padding: 24px !important;
+    margin-top: -24px;
+}
+
+.header.ct-header-color {
+    position: relative;
+    top: -4rem;
+}
+
+h1#heading-text {
+    font-size: 2rem !important;
+    text-transform: capitalize !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+}
+
+.widget .header h1, .widget .header h3 {
+    margin: 0px !important;
+}
+
+.ng-scope.ng-isolate-scope {
+    height: 306px !important; /* Changed by Dersana */
+    overflow: hidden !important;
+}
+
+#invite-friends-v2 {
+    /* width: 99%; */
+    width: 100%; /* Changed by Sadia - Latest */
+    height: auto !important;
+    margin: auto;
+    /* color: #4a4a4a !important; */
+    /* Color Added by Priyank */
+    color: #1A1919 !important;
+    border-radius: 10px !important;
+    /* background-color: #eee !important; */
+    /* background-color Added by Priyank */
+    background-color: #FFFFFF!important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    position: relative !important;
+    top: 4rem !important;
+}
+
+h2#share-link-header {
+    color: #4a4a4a !important;
+}
+
+h2#facebook-header {
+    color: #4a4a4a !important;
+}
+
+#invite-friends-v2 .channel .details button.selectable-link {
+    /* width: 35% !important; */
+    background-color: none !important;
+    margin: none !important;
+    padding: 0;
+    border: none;
+    width: 50%!important;
+    text-align: left;
+}
+
+#invite-friends-v2 .channel .details pre.link {
+    border-radius: 4px !important;
+    /* background-color: #f7f7f7 !important; */
+    /* background-color Added by Priyank */
+    background-color: #FFFFFF !important;
+    border: 1px solid #c5c5c5 !important;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    /* font-size Added by Priyank */
+    font-size: 1.125rem!important;
+    height: 3rem!important;
+}
+
+pre.link.ng-binding {
+    color: #828282 !important;
+    font-size: 0.9rem !important;
+}
+
+#invite-friends-v2 .channel{
+    margin-top: none;
+}
+
+#invite-friends-v2 .channel .details .title{
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+    /* font-size Added by Priyank */
+    font-size: 0.813rem!important;
+}
+/* Added by Priyank */
+p.ng-binding {
+    font-size: 0.813rem!important;
+}
+span.ct-points-color {
+    font-size: 0.813rem;
+}
+.button-container {
+    padding-right: 0px!important;
+}
+p.referral-explanation.ng-binding {
+    margin-bottom: 0px;
+}
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    body{
+        /* padding: 0px 15px 0px 20px !important; */
+    }
+    .ng-scope.ng-isolate-scope {
+        height: 25rem !important;
+        overflow: hidden !important;
+    }
+    .widget .container {
+        padding: 8px 4% 0% 7%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    p.ng-binding {
+        /* font-size: 0.7rem; */
+        /* font-size Added by Priyank */
+        font-size: 1.125rem!important;
+    }
+    span.ct-points-color {
+        font-size: 0.7rem !important;
+    }
+    #invite-friends-v2 .channel .details .title {
+        /* font-size: 0.8rem; */
+        /* font-size Added by Priyank */
+        font-size: 1.125rem!important;
+    }
+    #invite-friends-v2 .channel .details .title {
+        /* font-size: 0.8rem; */
+        /* font-size Added by Priyank */
+        font-size: 1.125rem!important;
+        margin: 0px 0px 0px !important;
+    }
+    #invite-friends-v2 .channel .details button.selectable-link {
+        width: 90% !important;
+    }
+    #invite-friends-v2 .channel .details pre.link {
+        font-size: 0.7rem !important;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    body{
+        /* padding: 0px 15px 0px 20px !important; */
+    }
+    .ng-scope.ng-isolate-scope {
+        height: 25rem !important;
+        overflow: hidden !important;
+    }
+    .widget .container {
+        padding: 8px 4% 0% 7%;
+    }
+    .widget .header {
+        padding: 1% 0% 0% 0% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: 0px !important;
+        padding: 0px;
+    }
+    p.ng-binding {
+        font-size: 0.7rem;
+    }
+    span.ct-points-color {
+        font-size: 0.7rem !important;
+    }
+    #invite-friends-v2 .channel .details .title {
+        /* font-size: 0.8rem; */
+        /* font-size Added by Priyank */
+        font-size: 1.125rem!important;
+    }
+    #invite-friends-v2 .channel .details .title {
+        /* font-size: 0.8rem; */
+        /* font-size Added by Priyank */
+        font-size: 1.125rem!important;
+        margin: 0px 0px 0px !important;
+    }
+    #invite-friends-v2 .channel .details button.selectable-link {
+        width: 90% !important;
+    }
+    #invite-friends-v2 .channel .details pre.link {
+        font-size: 0.7rem !important;
+    }
+ }
+ 
+ @media (min-width: 375px) and (max-width: 812px) {
+    .widget .container {
+        padding: 8px 4% 10px 7%;
+    }
+    #invite-friends-v2 .channel .details button.selectable-link {
+        width: 100% !important;
+    }
+ }
+
+ @media (min-width: 1024px) {
+
+    #invite-friends-v2 .channel .details button.selectable-link {
+        /* width: 50% !important; */
+        /* Width Added by Priyank */
+        width: 60% !important;
+    }
+}
+
+/* Added by Vivek */
+
+@media (max-width: 480px) {
+
+    .widget .container {
+        padding: 24px !important;
+        margin-top: -24px;
+    }
+    .ng-scope.ng-isolate-scope {
+        height: 307px !important;/* Changed by Dersana */
+        overflow: hidden !important;
+    }
+
+    p.ng-binding {
+        font-size: 0.813rem !important;
+    }
+    #invite-friends-v2 .channel .details .title {
+        font-size: 0.8rem!important;
+        margin: 0px 0px 0px !important;
+    }
+    #invite-friends-v2 .channel .details pre.link {
+        height: auto !important;
+        font-size: 0.5rem !important;
+    }
+    span.ct-points-color{
+        font-size: 0.813rem!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .ng-scope.ng-isolate-scope {
+        height: 306px !important; /* Changed by Dersana */
+    }
+    body {
+        /* padding-left: 10px !important; */
+        padding-left: 20px; /* Changed by Sadia - Latest */
+        padding-right: 20px; /* Changed by Sadia - Latest */
+    }
+    .widget .container {
+        padding: 24px !important;
+        margin-top: -24px;
+    }
+    .header.ct-header-color {
+        left: -0.5rem;
+    }
+    #invite-friends-v2 .channel .details pre.link {
+        font-size: 1.125rem!important;
+        overflow: hidden;
+        height: 3rem !important;
+    }
+    .header.ct-header-color {
+        position: relative;
+        top: -4rem;
+        left: -0.5rem;
+    }
+    #invite-friends-v2 .channel .details button.selectable-link {
+        width: 85% !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 575.98px) {
+    body{
+        padding-top: 30px !important; /* Changed by Dersana */
+        margin-left: 10px !important;
+/*        margin-right: 10px !important;*/ /* Changed by Dersana */
+        /*padding-right: 10px;  Changed by Sadia */
+        padding-right: 20px; /*  Changed by Sadia */
+        padding-left: 10px; /*  Changed by Sadia */
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px) { /* Changed by Dersana */
+    body{
+        padding-top: 40px !important; /* Changed by Dersana */
+    }
+}
+
+ /* 
+Code Added by Sadia - latest Started*/
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        padding-left: 20px;
+        padding-right: 24px;
+    }
+    div#invite-friends-v2 h1.ct-header-text-color {
+            padding-left: 0px;
+    }
+}
+ /* 
+Code Added by Sadia - latest End*/
+
+
+/* @media (min-width: 1024px) {
+    body{
+        padding-top: 100px !important;
+    }
+} */
