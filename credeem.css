@@ -1,0 +1,299 @@
+ /* FONTS */
+
+    @import url("https://loyalty-addons-scripts.redbullracing.com/crowdtwist/css/rbr-ct-fonts-v1.css");
+
+html {
+    min-height: 100% !important;
+    min-width:  100% !important;
+}
+
+body {
+    max-width: 1220px !important;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+    background-color: #001A30 !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    /* padding: 100px 0px 100px 8px; Changed by Dersana    */
+   padding: 100px 0px 100px 0px;   /*Changed by Sadia -latest    */ 
+}
+
+
+.page__panel iframe{
+    margin-top: 80px !important;
+}
+
+.container {
+    /* background-color: #eeeeee !important; */
+    /* BG color added by Priyank */
+    background-color: #FFFFFF !important;
+    border-radius: 10px !important;
+    position: relative !important;
+    top: 35px !important; 
+    /* padding: 10px 10px 10px 10px !important; */
+}
+
+.header.ct-header-color {
+    background-color: #001A30 !important;
+    border-bottom: none !important;
+    position: relative;
+}
+
+.widget .header h1, .widget .header h3 {
+    margin: none !important;
+}
+
+.widget .header {
+    padding: 0px !important;
+}
+
+.code-redemption-v2 {
+    margin-left: 0px !important;
+    color: #001A30 !important;
+    /* line-height: 4rem !important; */
+}
+
+div#code-redemption-v2 {
+    /*height: 279px !important;  Changed by Dersana */
+    height: 335px !important;/* Changed by Sadia - latest */
+}
+
+#dynamic-form .submit-container {
+    float: left !important;
+}
+
+#dynamic-form .submit-container button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    min-width: 200px;
+    padding: 0 24px 0 20px;
+    border: 2px solid #a0a1a1;
+    text-align: center;
+    border-radius: 6px;
+    cursor: default;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 1rem!important;
+    line-height: 1;
+    background-color: unset;
+    border-color: #db0a40!important;
+    background-color: #db0a40!important;
+}
+.button.button--cta:hover {
+    border-color: #f30b47!important;
+    background-color: #f30b47!important;
+}
+.form{
+    margin-bottom: 25px !important;
+}
+dl.form.ng-scope.text {
+    width: 35% !important;
+}
+
+h1#heading-text {
+color: #ffffff !important;
+    text-transform: capitalize;
+    font-size: 2rem !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+}
+
+.ng-scope.ng-isolate-scope {
+    overflow: hidden;
+}
+
+p.description.ng-binding {
+    margin: 0px 0px 25px 0px !important;
+    /* font-size: 0.7rem !important; */
+        /* Font-size Added by Priyank */
+        font-size: 0.813rem;
+}
+
+.widget .container {
+    /* padding: 35px 10px 0px 10px !important; */
+    /* padding: 24px !important; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 24px!important;
+    padding-top: 24px!important;
+    padding-right: 24px!important;
+    padding-bottom: 24px!important;
+    /* padding: 0px 0px 0px 0px; */
+    
+}
+
+label.ng-binding{
+    display: none;
+}
+
+/* Added by Priyank */
+button.btn.btn-small.ct-button.ng-binding {
+    background-color: #DB0840!important;
+}
+
+input#dynamic-form-field-code {
+    background-color: #FFFFFF;
+    font-size: 1.125rem;
+    border-radius: 4px !important;
+    font-size: 1.125rem!important;
+    height: 3rem!important;
+}
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    body{
+        /* padding: 0px 5px 0px 10px !important; */
+    }
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    .code-redemption-v2{
+        /* line-height: 3.5rem !important; */
+    }
+    p.description.ng-binding {
+        font-size: 0.7rem !important;
+    }
+    dl.form.ng-scope.text {
+        /* width: 90% !important; */
+        width: 99% !important;
+    }
+    button.btn.btn-small.ct-button.ng-binding{
+        font-size: 0.8rem !important;
+        font-weight: 500 !important;
+    }
+}
+
+
+
+
+/* 
+Code Added by Sadia - latest Started*/
+.widget .container {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1#heading-text {
+    margin-left: 0px
+}
+
+/* 
+Code Added by Sadia - latest End*/
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    body{
+        /* padding: 0px 5px 0px 10px !important; */
+    }
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: 5px 0 0px -5px !important;
+        padding: 0px;
+    }
+    .code-redemption-v2{
+        /* line-height: 3.5rem !important; */
+    }
+    p.description.ng-binding {
+        font-size: 0.7rem !important;
+    }
+    dl.form.ng-scope.text {
+        /* width: 90% !important; */
+        width: 99% !important;
+    }
+    button.btn.btn-small.ct-button.ng-binding{
+        font-size: 0.8rem !important;
+        font-weight: 500 !important;
+    }
+ }
+
+ /* Added by Vivek */
+
+ @media (max-width: 480px) {
+    input#dynamic-form-field-code {
+        height: 3rem !important;
+    }
+    .widget .container {
+        padding: 24px !important;
+    }
+    p.description.ng-binding {
+        margin: 0px !important;
+        font-size: 0.813rem!important;
+     }
+     .widget .header {
+        padding-left: 2% !important;
+    }
+     
+    }
+
+@media (min-width: 768px) and (max-width: 1024px){
+        body {
+            /* padding-left: 10px !important; */
+            padding-top: 45px;
+        }
+        dl.form.ng-scope.text {
+            width: 60% !important;
+        }
+        .widget .container {
+            padding: 24px !important;
+        }
+        div#code-redemption-v2 {
+            height: 279px !important; /* Changed by Dersana */
+        }
+    }
+    @media (min-width: 375px) and (max-width: 575.98px) { 
+        body{
+            padding: 45px 17px 45px 20px !important; /* Changed by Dersana */
+        }
+        .widget .container {
+            margin:0 2px;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 1023px) { 
+        body{
+            padding: 70px 0 70px 13px !important; /* Changed by Dersana */
+        }
+        .widget .container {
+            margin:0 2px;
+        }
+    }
+
+    /* 
+Code Added by Sadia - latest Started*/
+    @media (min-width: 1024px) and (max-width: 1439px){
+        .widget .container {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h1#heading-text {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        div#code-redemption-v2 {
+            margin-left: 5px;
+            margin-right: 15px;
+            height: 335px !important;
+        }
+    }
+    /* 
+Code Added by Sadia - latest End*/
+    /* @media (min-width: 1024px) { 
+        body{
+            padding-top: 100px !important;
+        }
+    } */
