@@ -1,0 +1,224 @@
+/* FONTS */
+
+    @import url("https://loyalty-addons-scripts.redbullracing.com/crowdtwist/css/rbr-ct-fonts-v1.css");
+
+html {
+    min-height: 100% !important;
+    min-width:  100% !important;
+}
+
+body {
+    padding-top: 60px; /* Added by Dersana */
+    max-width: 1220px !important;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+    background-color: #001A30 !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;  
+    /* height: 232px; */
+}
+div#activity-history-v2 > div.container {
+    height: 194px;
+    overflow: auto;
+}
+.page__panel iframe{
+    margin-top: 80px !important;
+}
+
+div#activity-history-v2{
+    padding: 0px; /* Changed by Dersana */
+}
+
+h1#heading-text {
+    text-transform: capitalize !important;
+    font-size: 2rem !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    padding-bottom: 10px;
+}
+
+.widget .header h1, .widget .header h3 {
+    margin: none !important;
+}
+
+.widget .header {
+    padding: 0px !important;
+}
+
+/* .container {
+    background-color: #001A30;
+} */
+
+.widget .container {
+    background-color: #001A30 !important;
+    padding: 35px 0px 0px 10px;
+}
+
+/* #activity-history-v2 table {
+    color: #ffffff !important;   
+} */
+
+table.activity-history {
+    color: #ffffff !important;
+}
+
+table thead th {
+    color: #ffffff !important;
+    border-bottom: none !important;
+}
+
+th.ng-binding {
+    color: #ffffff !important;
+    /* font-size Added by Priyank */
+    font-size: 1.125rem;
+   
+}
+/* font-size Added by Priyank */
+td.date.ng-binding {
+    font-size: 1.125rem;
+}
+/* font-size Added by Priyank */
+span.ng-binding {
+    font-size: 1.125rem;
+}
+#activity-history-v2 table thead {
+     border-bottom: none !important; 
+}
+
+#activity-history-v2 table thead th{
+    color: #ffffff !important;
+    border-bottom: none !important; 
+}
+
+iframe {
+    height: 200px !important;
+    margin-top: 80px !important;
+}
+.header.ct-header-color {
+    background-color: #001A30 !important;
+    border-bottom: none !important;
+    position: relative;
+}
+
+#activity-history-v2 table td, #activity-history-v2 table th {
+    vertical-align: top;
+    line-height: 18px;
+    padding: 4px 5px;
+}
+
+#activity-history-v2 table td:first-child, #activity-history-v2 table th:first-child {
+    padding-left: 0;
+    width: 15%;
+}
+
+.bonus {
+    color: aliceblue !important;
+}
+
+#activity-history-v2 table tbody:before {
+    display: none;
+}
+span.bonus.ng-binding.ng-scope {
+    padding-right: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #263C4F;
+}
+
+.btn, .btn:hover {
+    font-family: "Bull Text", Helvetica, sans-serif !important;
+    border-radius: 6px !important;
+    text-transform: none !important;
+    background-color: #DB0A40 !important;
+    border-color: #DB0A40 !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    padding: 15px 15px 14px 15px !important;
+    min-width: 200px !important;
+}
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    div#activity-history-v2 {
+        padding: 0px 0px 50px 0px !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    div#activity-history-v2 {
+        padding: 0px 0px 0px 0px !important;
+    }
+ }
+
+@media (min-width: 375px) and (max-width: 812px) { 
+    #activity-history-v2 table td:first-child, #activity-history-v2 table th:first-child {
+        width: 30%;
+    }
+    .widget .header h1, .widget .header h3{
+        margin: 4px 0px 0px 0px;
+    }
+    div#activity-history-v2 > div.container {
+        height: 194px;
+        overflow: auto;
+    }
+    h1#heading-text {
+        padding-bottom: 15px;
+    }
+}
+
+/* Added by Vivek */
+
+@media (max-width: 480px) {
+    
+    #activity-history-v2 table td:first-child, #activity-history-v2 table th:first-child {
+        width: 30%;
+        display: none;
+    }
+    
+    #activity-history-v2 table td:last-child, #activity-history-v2 table th:last-child {
+        text-align: right;
+        display: block;
+    }
+
+    #activity-history-v2 table td:nth-child(2) p.points, #activity-history-v2 table td:nth-child(2) .points {
+        text-transform: capitalize;
+        display: none;
+        color: #c41b2f;
+    }
+    th.ng-binding{
+        font-size: 1rem!important;
+    }
+    span.ng-binding {
+        font-size: 1rem;
+    }
+    body{
+        padding-top: 30px !important; /* Added by Dersana */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        padding: 40px 10px 0 10px !important; /* Changed by Dersana */
+    }
+}
