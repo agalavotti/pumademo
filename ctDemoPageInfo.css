@@ -33,7 +33,7 @@
     width: 100%;
   }
 #account-overview-v2 .container {
-    width: 90%%;
+    width: 90% !important;
     display: table!important;
     height: 320px !important;
     overflow: hidden !important;
