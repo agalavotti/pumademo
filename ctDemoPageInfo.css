@@ -45,7 +45,7 @@
     display:none !important;
 }
 #account-overview-v2 {
-    width: 90%;
+    width: 90% !important;
     height: 320px !important;
     overflow:hidden !important;
 }
