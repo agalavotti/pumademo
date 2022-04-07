@@ -131,3 +131,17 @@ element.style {
     text-align: center;
     font-size: .6875rem;
 }
+.ct-progress-bar .bar {
+    border-radius: 15px;
+    background: #c41b2f !important;
+    display: block;
+    color: #fff;
+    float: left;
+    font-size: .6875rem;
+    font-weight: 700;
+    text-align: right;
+    line-height: 12px;
+    padding: 1px 7px 1px;
+    margin-bottom: 0;
+    transition: min-width 1.5s ease;
+}
