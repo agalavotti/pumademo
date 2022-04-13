@@ -332,3 +332,7 @@ ct-points-color {
     color: #c41b2f !important;
     text-transform: capitalize;
 }
+reward-list-v2 .rewards .reward .content .row p.points {
+    text-transform: capitalize;
+    color: ##c41b2f !important;
+}
