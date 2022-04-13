@@ -415,3 +415,7 @@ list-v2 .unavailable img {
             height: 5.25rem !important;
           }
 }
+.ct-points-color {
+    color: #c41b2f !important;
+    text-transform: capitalize;
+}
