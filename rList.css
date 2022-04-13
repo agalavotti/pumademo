@@ -328,3 +328,7 @@ a.ct-link-color {
     }
     
 }
+ct-points-color {
+    color: #c41b2f !important;
+    text-transform: capitalize;
+}
