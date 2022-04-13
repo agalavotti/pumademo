@@ -167,7 +167,7 @@ h1#heading-text {
     font-size: 0.8125rem !important;
     line-height: 0.8125rem !important;
     padding: 0 24px !important;
-    color: #001A30 !important;
+    color: #001A30;
 }
 
 #reward-list-v2 .rewards .reward .content .row p.quantity {
@@ -177,7 +177,7 @@ h1#heading-text {
     text-align: right !important;
     font-size: 0.8125rem !important;
     line-height: 0.8125rem !important;
-    color: #1A1919 !important;
+    color: #1A1919;
 }
 
 #reward-list-v2 .rewards .reward .content .row p.points {
