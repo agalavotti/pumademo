@@ -1,0 +1,286 @@
+/* FONTS */
+
+    @import url("https://loyalty-addons-scripts.redbullracing.com/crowdtwist/css/rbr-ct-fonts-v1.css");
+
+html {
+    min-height: 100% !important;
+    min-width:  100% !important;
+}
+
+body {
+    max-width: 1220px !important;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+    background-color: #000000 !important;   
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    padding-bottom: 60px;/* Added By Dersana */
+}
+.user-info {
+    display: none!important;
+}
+#account-overview-v2 .points-info {
+    padding-left: 8px!important;
+}
+/* Added by Priyank */
+#account-overview-v2 .profile-pic {
+    border-radius: 50px;
+    width: 100px!important;
+    height: 100px!important;
+}
+
+#account-overview-v2 .header {
+    position: relative !important;
+}
+
+div#account-overview-v2 {
+    color: #ffffff !important;
+    width:90% !important;
+    /* padding: 0px 0px 80px 0px !important; */
+}
+
+.header.ct-header-color {
+    background-color: #000000 !important;
+    color:#ffffff;
+    border:none;
+}
+
+h1#heading-text {
+    color: #ffffff !important;
+    text-transform: capitalize !important;
+    /* font-size Added by Priyank */
+    font-size: 2rem !important;
+    font-family: 'Bull Text',Helvetica,sans-serif !important;
+    line-height: 34px;
+}
+
+.widget .header h1, .widget .header h3 {
+    margin: none !important;
+}
+
+.widget .header {
+    padding: 0px !important;
+}
+
+.name.ng-binding {
+    color: #ffffff !important;
+    text-transform: capitalize !important;
+}
+
+.redeemable-points.ct-points-color {
+    color: #ffffff !important;
+    font-weight: 900;
+    word-spacing: 3px;
+}
+
+span.flash-points.ng-binding {
+    /* font-size Added by Priyank */
+    font-size: 2rem !important;
+}
+
+.small.ng-binding {
+    position: relative;
+    top: 0.4rem;
+    
+    /* font-size: 0.8rem; */
+    /* font-size Added by Priyank */
+    font-size: 1.125rem!important;
+    font-weight: 400;
+}
+
+.fan-level {
+    position: relative;
+    top: 0.2rem;
+}
+
+span.ct-progress-bar {
+    /* height: 2rem; */
+    /* Added by Priyank */
+    height: 3.25rem!important;
+    border-radius: 25px;
+    background-color: #c41b2f !important;
+    border: 1px solid #627282ab !important;
+}
+
+.ct-progress-bar .bar {
+    padding-top: 1.2rem!important;
+    padding-left: 1.8rem !important;
+    width: 8rem;
+    border-radius: 15px;
+    background: #c41b2f;
+    display: block;
+    color: #fff;
+    height: 50px !important;
+    /* font-size: 1rem; */
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 25px;
+}
+
+#account-overview-v2 .lifetime-points, #account-overview-v2 .name {
+    text-transform: uppercase !important;
+    color: #ffffff;
+    font-weight: 700;
+    /* font-size: 0.8rem; */
+    /* font-size Added by Priyank */
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+}
+
+/* changed by priyank */
+span.ng-binding:nth-of-type(4) {
+    font-weight: 700!important;
+}
+
+span.ct-points-color.ng-binding {
+    color: #ffffff !important;
+    font-weight: 400;
+    font-size: 1.125rem!important;
+}
+p, span {
+    font-size: 1.125rem;
+}
+span.fan-level-progress.ng-scope {
+    font-size: 1.125rem;
+}
+#account-overview-v2 .fan-level.small {
+    display: none;
+}
+
+#account-overview-v2 .logout-link-container {
+    display: block;
+    padding-top: 60px;
+    width: 100%;
+    text-align: right;
+    font-size: .6875rem;
+}
+#account-overview-v2 .logout-link  {
+    color:#ffffff !important;
+}
+.container {
+    background-color: #000000;
+}
+
+iframe {
+    height: 170px !important;
+    margin-top: 80px !important;
+}
+
+.widget .container {
+    padding: 35px 0px 0px 0px;
+}
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    #account-overview-v2 .user-container {
+        padding-right: 10px;
+        margin-left: 5%;
+    }
+    #account-overview-v2 .points-info {
+        padding-left: 5%;
+    }
+    div#account-overview-v2 {
+        padding: 0px 0px 50px 0px !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 4% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    #account-overview-v2 .user-container {
+        padding-right: 10px;
+        margin-left: 5%;
+    }
+    #account-overview-v2 .points-info {
+        padding-left: 5%;
+    }
+    div#account-overview-v2 {
+        padding: 0px 0px 50px 0px !important;
+    }
+ }
+
+ @media (max-width: 1024px) {
+ .widget .container {
+    padding: 35px 0px 0px 8px;
+    }
+}
+
+/* Added by Vivek */
+@media (max-width: 480px) {
+    .widget .container {
+        padding: 35px 4% 0% 4%;
+    }
+    .widget .header {
+        padding: 0% 4% 0% 2% !important;
+    }
+    .widget .header h1, .widget .header h3 {
+        margin: none !important;
+        padding: 0px;
+    }
+    #account-overview-v2 .user-container {
+        padding-right: 10px;
+        margin-left: 5%;
+    }
+    #account-overview-v2 .user-container {
+        /* padding-right: 0px; */
+        /* padding-left: 0px; */
+        /* margin-left: 0%; */
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #account-overview-v2 .user-info {
+        padding-left: 10px;
+        margin-bottom: 10px;
+        width: 100% !important;
+        float: right;
+    }
+    #account-overview-v2 .points-info {
+        padding-left: 0% !important;
+    }
+    div#account-overview-v2 {
+        padding: 0px 0px 0px 0px !important;
+    }
+    body {
+        padding-bottom: 30px !important; /* Added by Dersana */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        padding: 0px 10px 40px 10px !important;
+        
+    }
+    .ct-progress-bar .bar {
+        font-size: 3.12vw;
+    }
+}
+/* Added by Sadia */
+/* @media only screen and (max-width: 425px) {
+    .ct-progress-bar .bar {
+        font-size: 4.12vh;
+    }
+} */
+@media only screen and (max-width: 512px) and (min-width: 375px)  {
+    .ct-progress-bar .bar {
+        font-size: 5.12vh;
+    }
+}

@@ -1,0 +1,421 @@
+/* FONTS */
+@import url("https://loyalty-addons-scripts.redbullracing.com/crowdtwist/css/rbr-ct-fonts-v1.css");
+
+html {
+  overflow-y: hidden !important;
+}
+
+body {
+  padding: 75px 0 0 0;
+  max-width: 1222px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #000000 !important;
+  font-family: "Bull Text", Helvetica, sans-serif !important;
+  position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: -7px;
+}
+
+h1#heading-text {
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+  font-size: 2rem !important;
+  line-height: 2rem !important;
+  font-family: "Bull Text", Helvetica, sans-serif !important;
+  padding-bottom: 10px;
+}
+.header.ct-header-color {
+  background-color: rgb(174, 148, 109) !important;
+  color: #ffffff !important;
+  border-bottom: none !important;
+  position: relative;
+}
+.widget .header {
+  display: block;
+  padding: 0px !important;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.widget .container {
+  padding: 45px 0 0 0 !important;
+}
+.widget .header h1 {
+  /* padding: 3px 0 3px 3px !important; */
+  /* margin: 3px 0 3px 3px !important; */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#activity-list-v2 .info-container {
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+  height: 190px;
+}
+
+button.title {
+  padding: 0 24px !important;
+  text-align: left;
+}
+
+#activity-list-v2 .activity .title {
+  min-height: 5.25rem;
+  margin: 15px 0 !important;
+  width: 100% !important;
+}
+
+#activity-list-v2 .activity .title, span {
+  display: flex;
+}
+
+span.ct-link-color.ng-binding {
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+  cursor: inherit;
+  height: 5.25rem !important;
+  font-size: 1.5rem !important;
+  line-height: 1.75rem !important;
+  font-weight: 700 !important;
+  font-family: "Bull Text", Helvetica, sans-serif !important;
+  align-items: flex-start;
+  margin: 0 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.description.ng-binding {
+  padding: 0px 24px !important;
+  margin: 0 0 10px 0 !important;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #737477 !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.0625rem !important;
+  height: 2.125rem !important;
+}
+
+.countdown.ng-binding.ng-scope {
+  padding: 0 24px !important;
+  margin: 0 0 15px 0 !important;
+  text-align: left;
+  color: #001A30 !important;
+}
+
+/* Hides clock icon */
+#activity-list-v2 .info-container .countdown .fa {
+  display: none !important;
+}
+
+#activity-list-v2 .point-value.completed .fa-check-circle {
+  top: 0 !important;
+}
+
+.fa-check-circle:before {
+  color: #097600 !important;
+}
+
+#activity-list-v2 .points-container {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  min-width: 100px;
+  margin-left: 14px;
+  font-size: 1rem !important;
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  padding: 0 0 24px 10px;
+}
+::-webkit-scrollbar {
+  background: #000F1E;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+  background: #293F51;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 0 rgb(255 255 255 / 50%) !important;
+}
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+#activity-list-v2 li:nth-child(1) {
+  margin-left: 0 !important;
+}
+#activity-list-v2 li:nth-last-child(1) {
+  margin-right: 0 !important;
+}
+#activity-list-v2 .image-container {
+  /*height: -4px !important;*/
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: auto !important;
+}
+#activity-list-v2 .activity {
+  background: #fff;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+  width: 20% !important;
+  float: left !important;
+  margin: 0 10px 20px 10px !important;
+  border-radius: 8px !important;
+  padding: 0px !important;
+  /*height: 510px;*/
+  flex: 0 0 auto;
+}
+span.ct-link-color.ng-binding {
+  color: #1A1919 !important;
+  align-items: flex-start;
+}
+#activity-list-v2 .points-container .points_without-bonus {
+  font-size: 1rem !important;
+  color: #c41b2f !important;
+  font-weight: 400 !important;
+  margin-bottom: 5px !important;
+}
+
+.image-container.ng-scope {
+  height: 244px !important;
+  width: 100% !important;
+  background-color: #eee !important;
+}
+img {
+  height: 200px;
+  width: 100%;
+  padding: 0px !important;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: block !important;
+}
+list-v2 .unavailable img {
+  opacity: 0.4;
+  color: #001a30 !important;
+}
+
+#activity-list-v2 .points-container .bonus-label {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: 2560px){
+
+    body {
+        left: -13px !important;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+
+    body {
+        padding: 50px 31px 2px 20px !important;
+        left: 0 !important;
+      }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    body {
+        padding: 50px 0 2px 0 !important;
+        left: -4px !important;
+        width: calc(100% - 8px) !important;
+      }
+
+      .widget .container {
+        padding: 30px 0 0 0 !important;
+      }
+
+      .widget .header h1 {
+        padding: 10px !important;
+        margin: 10px !important;
+      }
+
+      #activity-list-v2 .activity {
+        margin: 0 10px 0 10px !important;
+      }
+
+      #activity-list-v2 li:nth-child(1) {
+        margin-left: 20px !important;
+      }
+      #activity-list-v2 li:nth-last-child(1) {
+        margin-right: 20px !important;
+      }
+
+      ::-webkit-scrollbar {
+        background: #001a30;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #001a30;
+      }
+
+    #activity-list-v2 .activity {
+        width: 42% !important;
+        flex: 0 0 auto;
+        }
+        #activity-list-v2 .info-container {
+            max-width: 100%;
+            height: 160px !important;
+            /* margin-top: 20px; */
+            /* padding-left: 0px; */
+            /* padding-right: 0px; */
+            /* padding-top: 10px!important; */
+            /* padding-bottom: 24px!important; */
+          }
+          #activity-list-v2 .points-container {
+            text-transform: capitalize !important;
+            font-weight: 500 !important;
+            font-size: 1.125rem!important;
+          }
+
+          #activity-list-v2 .activity .title {
+            -webkit-line-clamp: 2;
+            min-height: 3.5rem;
+          }
+
+          span.ct-link-color.ng-binding {
+            height: 3.5rem !important;
+          }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+      body {
+        padding: 50px 0 2px 0 !important;
+        left: 0 !important;
+      }
+
+      .widget .container {
+        padding: 30px 0 0 0 !important;
+      }
+
+      .widget .header h1 {
+        padding: 10px !important;
+        margin: 10px !important;
+      }
+
+      #activity-list-v2 .activity {
+        margin: 0 10px 0 10px !important;
+      }
+
+      #activity-list-v2 li:nth-child(1) {
+        margin-left: 20px !important;
+      }
+      #activity-list-v2 li:nth-last-child(1) {
+        margin-right: 20px !important;
+      }
+
+      ::-webkit-scrollbar {
+        background: #001a30;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #001a30;
+      }
+
+    #activity-list-v2 .activity {
+        width: 80% !important;
+        flex: 0 0 auto;
+        }
+        #activity-list-v2 .info-container {
+            max-width: 100%;
+            height: 190px !important;
+            /* margin-top: 20px; */
+            /* padding-left: 0px; */
+            /* padding-right: 0px; */
+            /* padding-top: 10px!important; */
+            /* padding-bottom: 24px!important; */
+          }
+          #activity-list-v2 .points-container {
+            text-transform: capitalize !important;
+            font-weight: 500 !important;
+            font-size: 1.125rem!important;
+          }
+
+          #activity-list-v2 .activity .title {
+            -webkit-line-clamp: 3;
+            min-height: 5.25rem;
+          }
+
+          span.ct-link-color.ng-binding {
+            height: 5.25rem !important;
+          }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+      body {
+        padding: 50px 0 2px 0 !important;
+        left: 0 !important;
+      }
+
+      .widget .container {
+        padding: 30px 0 0 0 !important;
+      }
+
+      .widget .header h1 {
+        padding: 10px !important;
+        margin: 10px !important;
+      }
+
+      #activity-list-v2 .activity {
+        margin: 0 10px 0 10px !important;
+      }
+
+      #activity-list-v2 li:nth-child(1) {
+        margin-left: 20px !important;
+      }
+      #activity-list-v2 li:nth-last-child(1) {
+        margin-right: 20px !important;
+      }
+
+      ::-webkit-scrollbar {
+        background: #001a30;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #001a30;
+      }
+
+    #activity-list-v2 .activity {
+        width: 80% !important;
+        flex: 0 0 auto;
+        }
+        #activity-list-v2 .info-container {
+            max-width: 100%;
+            height: 190px !important;
+            /* margin-top: 20px; */
+            /* padding-left: 0px; */
+            /* padding-right: 0px; */
+            /* padding-top: 10px!important; */
+            /* padding-bottom: 24px!important; */
+          }
+          #activity-list-v2 .points-container {
+            text-transform: capitalize !important;
+            font-weight: 500 !important;
+            font-size: 1.125rem!important;
+          }
+
+          #activity-list-v2 .activity .title {
+            -webkit-line-clamp: 3;
+            min-height: 5.25rem;
+          }
+
+          span.ct-link-color.ng-binding {
+            height: 5.25rem !important;
+          }
+}
+.ct-points-color {
+    color: #c41b2f !important;
+    text-transform: capitalize;
+}
