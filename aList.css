@@ -10,7 +10,7 @@ body {
   max-width: 1222px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
   font-family: "Bull Text", Helvetica, sans-serif !important;
   position: relative;
     margin-left: auto;
@@ -165,7 +165,7 @@ ul {
   height: auto !important;
 }
 #activity-list-v2 .activity {
-  background: #fff;
+  background: #eae3e3 !important;
   border-bottom: 1px solid #bbb;
   cursor: pointer;
   width: 20% !important;
